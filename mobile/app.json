@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "MyFinanceApp",
+    "slug": "my-finance-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "bundleIdentifier": "com.example.myfinanceapp",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Your description here",
+        "NSPhotoLibraryUsageDescription": "Your description here",
+        "NSFaceIDUsageDescription": "Your description here"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "fontFamily": {
+        "sans-serif": {
+          "regular": {
+            "file": "./assets/fonts/Roboto-Regular.ttf"
+          },
+          "bold": {
+            "file": "./assets/fonts/Roboto-Bold.ttf"
+          },
+          "italic": {
+            "file": "./assets/fonts/Roboto-Italic.ttf"
+          },
+          "bold-italic": {
+            "file": "./assets/fonts/Roboto-BoldItalic.ttf"
+          }
+        }
+      }
+    }
+  }
+}
